@@ -8,7 +8,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dart_torrent_handler: ^1.0.0 # adjust according to your published version
+  dart_torrent_handler: ^1.0.0
   path: ^1.8.0
   shelf: ^1.2.0
   shelf_static: ^1.1.0
@@ -18,3 +18,9 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
   pedantic: ^1.11.0
+
+dependency_overrides:
+  dart_torrent_handler:
+    git:
+      url: https://github.com/mzazimhenga22/dart_torrent_handler.git
+      ref: main
