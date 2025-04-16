@@ -1,0 +1,20 @@
+name: my_torrent_streamer
+description: A project to connect your Flutter app with dart_torrent_handler to stream torrent content.
+version: 0.1.0
+homepage: https://github.com/mzazimhenga22/my_torrent_streamer
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dart_torrent_handler: ^1.0.0 # adjust according to your published version
+  path: ^1.8.0
+  shelf: ^1.2.0
+  shelf_static: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  pedantic: ^1.11.0
